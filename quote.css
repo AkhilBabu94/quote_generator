@@ -1,0 +1,64 @@
+body {
+  background-color: blue;
+  color: blue;
+}
+.quote-box {
+  border-radius:3px;
+  position:relative;
+  margin:8% auto auto auto;
+  width:450px;
+  height:200px;
+  padding:40px 50px;
+  background-color:#fff;
+}
+.quote-text
+{
+  color:blue;
+  height:100px;
+  text-align:center;
+   font-weight:500;
+    font-size:1.75em;
+}
+.quote
+{
+  font-size:20px;
+}
+.button {
+  margin-top:60px;
+    background-color: blue;
+  color: white;
+  border-radius: 8px;  
+  padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+  
+}
+.button:hover {
+    background-color:#000090; /* Green */
+    color: white;
+}
+#tweet-quote
+{
+  margin-top:60px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;  
+  padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+#tumblr-quote
+{
+  margin-top:60px;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;  
+  padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#new-quote
+{
+  float:right;
+}
