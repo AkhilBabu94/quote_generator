@@ -7,20 +7,33 @@ body {
   position:relative;
   margin:8% auto auto auto;
   width:450px;
-  height:200px;
-  padding:40px 50px;
+  height:auto;
+ padding:40px 50px;
   background-color:#fff;
+display:table;
 }
+.footer
+{
+  height:200px;
+  text-align:center;
+  color: white;
+}
+
 .quote-text
 {
   color:blue;
   height:100px;
   text-align:center;
    font-weight:500;
-    font-size:1.75em;
+    font-size:1.50em;
 }
-.quote
+.text
 {
+  font-size:25px;
+}
+.author
+{
+
   font-size:20px;
 }
 .button {
@@ -40,6 +53,7 @@ body {
 #tweet-quote
 {
   margin-top:60px;
+  margin-right:250px;
   background-color: blue;
   color: white;
   border-radius: 8px;  
@@ -47,17 +61,6 @@ body {
     display: inline-block;
     font-size: 20px;
 }
-#tumblr-quote
-{
-  margin-top:60px;
-  background-color: blue;
-  color: white;
-  border-radius: 8px;  
-  padding: 10px 20px;
-    display: inline-block;
-    font-size: 20px;
-}
-
 #new-quote
 {
   float:right;
