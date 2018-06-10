@@ -20,5 +20,4 @@ $("#new-quote").on("click", function() {
 $("#tweet-quote").on("click", function(){
                   window.open("https://twitter.com/intent/tweet?hashtags=&text=" + data.quoteText + ' -' + data.quoteAuthor);
 });
-     $("#tweet-quote").off("click");
 }
