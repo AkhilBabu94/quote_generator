@@ -22,6 +22,7 @@ $("#new-quote").on("click", function() {
 $("#tweet-quote").on("click", function(){   $("#tweet-quote").attr('href',"https://twitter.com/intent/tweet?hashtags=&text=" + data.quoteText + ' -' + data.quoteAuthor);
 });
 });
+        $("#new-quote").off("click");
   }
 
  
